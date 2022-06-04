@@ -1,0 +1,23 @@
+{
+  "POWERRANGERS.EssenceStr": "Strength",
+  "POWERRANGERS.EssenceSpd": "Speed",
+  "POWERRANGERS.EssenceSmt": "Smarts",
+  "POWERRANGERS.EssenceSoc": "Social",
+
+  "POWERRANGERS.EssenceStrAbbr": "str",
+  "POWERRANGERS.EssenceSpdAbbr": "spd",
+  "POWERRANGERS.EssenceSmtAbbr": "smt",
+  "POWERRANGERS.EssenceSocAbbr": "soc",
+
+  "POWERRANGERS.DefenseTgh": "Toughness",
+  "POWERRANGERS.DefenseEva": "Evasion",
+  "POWERRANGERS.DefenseWil": "Willpower",
+  "POWERRANGERS.DefenseClv": "Cleverness",
+
+  "POWERRANGERS.EffectCreate": "Create Effect",
+  "POWERRANGERS.EffectToggle": "Toggle Effect",
+  "POWERRANGERS.EffectEdit": "Edit Effect",
+  "POWERRANGERS.EffectDelete": "Delete Effect",
+
+  "POWERRANGERS.Add": "Add"
+}
