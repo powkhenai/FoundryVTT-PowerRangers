@@ -2,7 +2,7 @@
   "name": "powerrangers",
   "title": "Power Rangers",
   "description": "The Power Rangers RPG system for FoundryVTT!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "9",
   "author": "Powkhenai",

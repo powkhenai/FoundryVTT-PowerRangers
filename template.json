@@ -1,74 +1,269 @@
 {
-  "Actor": {
-    "types": ["character", "npc", "monster"],
-    "templates": {
-      "base": {
-        "health": {
-          "value": 10,
-          "min": 0,
-          "max": 10
+    "Actor": {
+        "types": ["character", "npc", "monster"],
+        "templates": {
+            "base": {
+                "health": {
+                    "value": 10,
+                    "min": 0,
+                    "max": 10
+                },
+                "power": {
+                    "value": 5,
+                    "min": 0,
+                    "max": 5
+                },
+                "biography": ""
+            }
         },
-        "power": {
-          "value": 5,
-          "min": 0,
-          "max": 5
+        "character": {
+            "templates": ["base"],
+            "attributes": {
+                "level": {
+                    "value": 1
+                },
+                "origin": "",
+                "role": ""
+            },
+            "essences": {
+                "strength": {
+                    "value": 10,
+                    "min": 0,
+                    "max": 15
+                },
+                "speed": {
+                    "value": 10,
+                    "min": 0,
+                    "max": 15
+                },
+                "smarts": {
+                    "value": 10,
+                    "min": 0,
+                    "max": 15
+                },
+                "social": {
+                    "value": 10,
+                    "min": 0,
+                    "max": 15
+                }
+            },
+            "skills": {
+                "athletics": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "brawn": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "conditioning": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false
+                },
+                "intimidation": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "might": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "acrobatics": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "driving": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "finesse": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "infiltration": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "initiative": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false
+                },
+                "targeting": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "alertness": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "culture": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "science": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "survival": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "technology": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "animal_handling": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "deception": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "performance": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "persuasion": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                },
+                "streetwise": {
+                    "d2": false,
+                    "d4": false,
+                    "d6": false,
+                    "d8": false,
+                    "d10": false,
+                    "d12": false,
+                    "specilizations": []
+                }
+            }
         },
-        "biography": ""
-      }
-    },
-    "character": {
-      "templates": ["base"],
-      "attributes": {
-        "level": {
-          "value": 1
-        },
-        "origin": "",
-        "role": ""
-      },
-      "essences": {
-        "strength": {
-          "value": 10,
-          "min": 0,
-          "max": 15
-        },
-        "speed": {
-          "value": 10,
-          "min": 0,
-          "max": 15
-        },
-        "smarts": {
-          "value": 10,
-          "min": 0,
-          "max": 15
-        },
-        "social": {
-          "value": 10,
-          "min": 0,
-          "max": 15
+        "npc": {
+            "templates": ["base"],
+            "cr": 0
         }
-      }
     },
-    "npc": {
-      "templates": ["base"],
-      "cr": 0
+    "Item": {
+        "types": ["item", "skill"],
+        "templates": {
+            "base": {
+                "description": ""
+            }
+        },
+        "item": {
+            "templates": ["base"],
+            "quantity": 1,
+            "weight": 0,
+            "formula": "d20 + @strength + ceil(@lvl / 2)"
+        },
+        "skill": {
+                "templates": ["base"],
+                "d2": false,
+                "d4": false,
+                "d6": false,
+                "d8": false,
+                "d10": false,
+                "d12": false,
+                "specilizations": []
+        }
     }
-  },
-  "Item": {
-    "types": ["item", "skill"],
-    "templates": {
-      "base": {
-        "description": ""
-      }
-    },
-    "item": {
-      "templates": ["base"],
-      "quantity": 1,
-      "weight": 0,
-      "formula": "d20 + @strength + ceil(@lvl / 2)"
-    },
-    "skill": {
-        "templates": ["base"],
-        "dice": []
-    }
-  }
 }
