@@ -67,6 +67,36 @@ Handlebars.registerHelper('toLowerCase', function(str) {
   return str.toLowerCase();
 });
 
+Handlebars.registerHelper('toCamelCase', function(str) {
+    var outStr = '';
+    for (var word of str.split('_')) {
+        outStr += word.charAt(0).toUpperCase() + word.slice(1) + ' ';
+    }
+    return outStr;
+});
+
+Handlebars.registerHelper('times', function(n, block) {
+    var accum = '';
+    for(var i = 0; i < n; ++i) {
+        block.data.index = i;
+        block.data.first = i === 0;
+        block.data.last = i === (n - 1);
+        accum += block.fn(this);
+    }
+    return accum;
+});
+
+Handlebars.registerHelper('for', function(from, to, incr, block) {
+    var accum = '';
+    for(var i = from; i < to; i += incr)
+        accum += block.fn(i);
+    return accum;
+});
+
+Handlebars.registerHelper('equals', function(arg1, arg2) {
+    return (arg1 == arg2);
+});
+
 /* -------------------------------------------- */
 /*  Ready Hook                                  */
 /* -------------------------------------------- */
