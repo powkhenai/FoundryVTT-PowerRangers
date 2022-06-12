@@ -49,6 +49,7 @@
             },
             "skills": {
                 "athletics": {
+                    "essence": "strength",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -58,6 +59,7 @@
                     "specializations": []
                 },
                 "brawn": {
+                    "essence": "strength",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -67,6 +69,7 @@
                     "specializations": []
                 },
                 "conditioning": {
+                    "essence": "strength",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -75,6 +78,7 @@
                     "d12": false
                 },
                 "intimidation": {
+                    "essence": "strength",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -84,6 +88,7 @@
                     "specializations": []
                 },
                 "might": {
+                    "essence": "strength",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -93,6 +98,7 @@
                     "specializations": []
                 },
                 "acrobatics": {
+                    "essence": "speed",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -102,6 +108,7 @@
                     "specializations": []
                 },
                 "driving": {
+                    "essence": "speed",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -111,6 +118,7 @@
                     "specializations": []
                 },
                 "finesse": {
+                    "essence": "speed",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -120,6 +128,7 @@
                     "specializations": []
                 },
                 "infiltration": {
+                    "essence": "speed",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -129,6 +138,7 @@
                     "specializations": []
                 },
                 "initiative": {
+                    "essence": "speed",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -137,6 +147,7 @@
                     "d12": false
                 },
                 "targeting": {
+                    "essence": "speed",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -146,6 +157,7 @@
                     "specializations": []
                 },
                 "alertness": {
+                    "essence": "smarts",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -155,6 +167,7 @@
                     "specializations": []
                 },
                 "culture": {
+                    "essence": "smarts",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -164,6 +177,7 @@
                     "specializations": []
                 },
                 "science": {
+                    "essence": "smarts",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -173,6 +187,7 @@
                     "specializations": []
                 },
                 "survival": {
+                    "essence": "smarts",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -182,6 +197,7 @@
                     "specializations": []
                 },
                 "technology": {
+                    "essence": "smarts",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -191,6 +207,7 @@
                     "specializations": []
                 },
                 "animal_handling": {
+                    "essence": "social",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -200,6 +217,7 @@
                     "specializations": []
                 },
                 "deception": {
+                    "essence": "social",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -209,6 +227,7 @@
                     "specializations": []
                 },
                 "performance": {
+                    "essence": "social",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -218,6 +237,7 @@
                     "specializations": []
                 },
                 "persuasion": {
+                    "essence": "social",
                     "d2": false,
                     "d4": false,
                     "d6": false,
@@ -227,6 +247,7 @@
                     "specializations": []
                 },
                 "streetwise": {
+                    "essence": "social",
                     "d2": false,
                     "d4": false,
                     "d6": false,

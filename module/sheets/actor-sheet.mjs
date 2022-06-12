@@ -39,6 +39,8 @@ export class PowerRangersActorSheet extends ActorSheet {
     context.data = actorData.data;
     context.flags = actorData.flags;
 
+    console.log(context);
+
     // Prepare character data and items.
     if (actorData.type == 'character') {
       this._prepareItems(context);
