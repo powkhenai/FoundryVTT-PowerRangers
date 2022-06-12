@@ -35,6 +35,16 @@
                 <input type="checkbox" name="data.skills.athletics.d12" {{checked actor.data.data.skills.athletics.d12}}/>
             </div>
         </div>
+        <div class="flexrow">
+            <div class="flexcol">
+                {{#times 3}}
+                    {{log (concat data.skills.athletics.specializations.[ @index ])}}
+                {{/times}}
+                <input type="text" name="data.skills.athletics.specializations.0" value="{{data.skills.athletics.specializations.[0]}}" data-dtype="String"/>
+                <input type="text" name="data.skills.athletics.specializations.1" value="{{data.skills.athletics.specializations.[1]}}" data-dtype="String"/>
+                <input type="text" name="data.skills.athletics.specializations.2" value="{{data.skills.athletics.specializations.[2]}}" data-dtype="String"/>
+            </div>
+        </div>
         <h3>Brawn</h3>
         <div class="flexrow">
             <div class="flexcol">

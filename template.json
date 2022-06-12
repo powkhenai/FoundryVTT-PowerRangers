@@ -55,7 +55,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "brawn": {
                     "d2": false,
@@ -64,7 +64,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "conditioning": {
                     "d2": false,
@@ -81,7 +81,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "might": {
                     "d2": false,
@@ -90,7 +90,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "acrobatics": {
                     "d2": false,
@@ -99,7 +99,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "driving": {
                     "d2": false,
@@ -108,7 +108,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "finesse": {
                     "d2": false,
@@ -117,7 +117,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "infiltration": {
                     "d2": false,
@@ -126,7 +126,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "initiative": {
                     "d2": false,
@@ -143,7 +143,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "alertness": {
                     "d2": false,
@@ -152,7 +152,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "culture": {
                     "d2": false,
@@ -161,7 +161,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "science": {
                     "d2": false,
@@ -170,7 +170,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "survival": {
                     "d2": false,
@@ -179,7 +179,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "technology": {
                     "d2": false,
@@ -188,7 +188,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "animal_handling": {
                     "d2": false,
@@ -197,7 +197,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "deception": {
                     "d2": false,
@@ -206,7 +206,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "performance": {
                     "d2": false,
@@ -215,7 +215,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "persuasion": {
                     "d2": false,
@@ -224,7 +224,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 },
                 "streetwise": {
                     "d2": false,
@@ -233,7 +233,7 @@
                     "d8": false,
                     "d10": false,
                     "d12": false,
-                    "specilizations": []
+                    "specializations": []
                 }
             }
         },
@@ -263,7 +263,7 @@
                 "d8": false,
                 "d10": false,
                 "d12": false,
-                "specilizations": []
+                "specializations": []
         }
     }
 }
